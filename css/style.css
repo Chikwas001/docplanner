@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{ font-family: sans-serif;}
+#doc{color: aqua;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    background-color: navy;
+    list-style-type: none;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.main{
+    color: rgba(10, 168, 155, 0.534);
+    font-size: xx-large;
+}
+
+#headerlogo{
+    align-items: center;
+    justify-content: center;
+}
+.flex-container{
+    height: 100vh;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    column-gap: 50px;
+}
+.flex-container .item{
+    height: auto;
+    width: 400px;
+    background-color: floralwhite;
+    
+}
+.flex-cont{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.compound{
+    background-color: #b3f0e6;
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+.cities{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100 px;
+    padding-bottom: 100px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+.cities .button{
+    background-color: blue;
+    color: floralwhite;
+    margin-top: 0.5cm;
+    gap: 2cm;
+    justify-content: center;
+    line-height: 1cm;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-align: center;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: roboto, Arial, sans-serif;
+    margin-right: 20px;
+    align-items: end;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.section3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.sec3{
+    background-color: grey;
+    font-weight: lighter;
+    column-gap: 20px;
+}
+.end .end2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.end3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-between;
+}
